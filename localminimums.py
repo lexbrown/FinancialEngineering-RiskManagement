@@ -3,11 +3,10 @@
 
 seq =[]
 locmin = []
-for i in 2:
+for i in range(2):
 	a = int(input())
 	seq.append(a)
-	print(i)	#отладчик
-while true:
+while True:
 	a = int(input())
 	if a < 0:
 		break
