@@ -12,3 +12,5 @@ while true:
 	seq.append(a)
 	if seq[-2] < seq[-3] and seq[-2] < seq[-1]:
 		locmin.append(seq[-2])
+	print(seq)
+	print(locmin)
