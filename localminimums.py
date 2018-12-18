@@ -15,4 +15,5 @@ while True:
 		locmin.append(seq[-2])
 	print(seq)
 	print(locmin)
+#прописать исключение
 	
