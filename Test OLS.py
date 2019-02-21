@@ -6,6 +6,8 @@ import matplotlib.pyplot as plt
 import statsmodels.api as sm
 
 raw_set = pd.read_excel('OLS_testset.xlsx')
+#raw_set.describe()
+
 figols =plt.figure(figsize = (10, 5))
 subfigols = figols.add_subplot(1,1,1)
 dep_v = raw_set['y']
