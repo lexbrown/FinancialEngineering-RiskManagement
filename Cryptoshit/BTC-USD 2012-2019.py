@@ -3,7 +3,7 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-import scipy
+import scipy as sp
 
 btc = pd.read_excel("BTC_USD 2012-2019 - final dataset.xlsx", index_col = 0, parse_dates = True)
 btc_price = btc["Price"]
